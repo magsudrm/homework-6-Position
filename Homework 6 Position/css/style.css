@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    background-color: #FFFFFF;
+}
+.header_img{
+    width: 16%;
+}
+.header_img img{
+    width: 100%;
+}
+.header_text a{
+    margin-left: 4rem;
+    color: #181818;
+    line-height: 100px;
+    font-weight: 600;
+    letter-spacing: -.03em;
+    font-size: 15px;
+    position: relative;
+}
+.header_text a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 18px;
+    height: 2px;
+    width: 0;
+    background:linear-gradient(90deg, rgba(0,84,144,1) 0%, rgba(80,255,20,1) 58%, rgba(237,255,0,1) 100%);
+    margin-top: 1rem;
+    opacity: 0;
+    transition: 0.5s;
+}
+.header_text a:hover::before{
+    opacity: 1;
+    width: 50%;
+}
+.header_text a::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    height: 2px;
+    width: 0;
+    background:linear-gradient(90deg, rgba(0,84,144,1) 0%, rgba(80,255,20,1) 58%, rgba(237,255,0,1) 100%);
+    margin-top: 1rem;
+    opacity: 0;
+    transition: 0.5s;
+}
+.header_text a:hover::after{
+    opacity: 1;
+    width: 50%;
+}
+
+.section1{
+    background-image: url(https://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/09/bgn-home-slider-03.jpg);
+    height: 765.1px;
+    width: 1520px;
+    background-size: cover;
+    text-align: center;
+}
+.england_span{
+    color: white;
+    font-size: 20px;
+}
+.theatrical_span{
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: white;
+}
+.london_span{
+    font-weight: 600;
+    font-size: 4rem;
+    color: white;
+}
+.section1 p{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin: 1rem 0 3rem 0;
+}
+.section1 hr{
+    margin:1.5rem 0 1.5rem 0;
+    width: 9%;
+    margin-left: 43rem;
+    border: 1px solid white;
+    background-color: white;
+}
+.discover{
+    background-color: #8dc645;
+    padding: 18px 23px;
+    border: 1px solid #8dc645;
+    color: white;
+}
+.book{
+    background-color: #1976BC;
+    padding: 18px 23px;
+    border: 1px solid #1976BC;
+    color: white;
+}
+.section1_main{
+    position: relative;
+    top: 15rem;
+}
+
