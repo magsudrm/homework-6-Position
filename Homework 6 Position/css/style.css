@@ -111,4 +111,20 @@ header{
     position: relative;
     top: 15rem;
 }
+.section2{
+    padding: 0 1rem;
+}
+.section2_boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 19%;
+    margin-top: 2rem;
+    padding: 3rem 0;
+}
+.box_img img{
+    width: 100%;
+}
 
